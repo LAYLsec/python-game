@@ -1,0 +1,26 @@
+# Cosmic Dungeon Quest - Requirements
+# No external dependencies required - uses Python standard library only!
+
+# Python Version
+python>=3.8
+
+# Standard Library (included with Python)
+# - random: Procedural generation and randomization
+# - json: Save/load game state serialization
+# - math: Combat physics and calculations
+# - time: Game timing and playtime tracking
+# - enum: Game enumerations (Rarity, ItemType, etc.)
+# - dataclasses: Data structures for game objects
+# - typing: Type hints for better code quality
+# - collections: defaultdict for performance
+# - hashlib: Future save file integrity checks
+
+# Optional Dependencies (for enhanced experience)
+# colorama>=0.4.4  # For better colored terminal output (optional)
+# pygame>=2.1.0    # For future graphical version (not yet implemented)
+
+# Development Dependencies (optional)
+# pytest>=7.0      # Unit testing
+# black>=22.0      # Code formatting
+# pylint>=2.12     # Code quality checking
+# sphinx>=4.0      # Documentation generation
